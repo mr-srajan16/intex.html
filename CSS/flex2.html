@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX 3</title>
+    <style>
+        html{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            width: 1200px;
+            height: 800px;
+            background-color: rgb(67, 189, 205);
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #container{
+            height: 400px;
+            background-color: rgb(7, 15, 75);
+            display:flex
+        }
+        #hdr_top{
+            height: 200px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            gap: 10px;
+        }
+        #hdr{
+            height: 50px;
+            background-color: rgb(80, 14, 146);
+            
+        }
+        #hdr_top_left{
+            flex-grow: 1;background-color: rgb(29, 83, 17);
+            width: 50%;
+           
+        }
+        #hdr_top_right{
+            flex-grow: 2;background-color: rgb(36, 36, 126);
+            width: 50%;
+        }
+        #c1{
+          text-align: center;
+            background-color: rgb(20, 126, 53);width: 100%;height: 100%;box-sizing: border-box;
+        }
+        #c3{
+            background-color: rgb(15, 122, 88);width: 100%;height: 100%;
+            text-align: center;
+        }
+        #c2{
+            flex-direction: column;
+            height: 100%;
+            width:100%;
+            
+        }
+        #c2_1{
+            background-color: rgb(145, 95, 160);
+            height: 30%;
+            width: 100%;
+            flex-direction: row;
+
+        }
+        #c2_2_1{
+            background-color: coral;
+            height: 100%;
+            width: 50%;
+            flex-direction: column;
+        }
+        #c2_2_2{
+            background-color: rgba(165, 42, 42, 0.605);
+            height: 100%;
+            width: 50%;
+            flex-direction: column;
+            
+        }
+        #c2_3{
+            background-color: chartreuse;
+            height:30%;
+            width: 100%;
+            flex-direction: row;
+           
+        }
+        #c2_2{
+            display: flex;
+            height: 40%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="hdr_top">
+           
+            <div id="hdr_top_left">left</div>
+            <div id="hdr_top_right">right</div>
+        </div>
+        <div id="hdr">
+            header bar
+        </div>
+        <div id="container">
+            <div id="c1">left block</div>
+            <div id="c2">
+                <div id="c2_1">centre-centre block</div>
+                <div id="c2_2">
+                    <div id="c2_2_1">centre left</div>
+                    <div id="c2_2_2">centre right</div>
+                </div>
+                <div id="c2_3">module contents</div>
+            </div>
+            <div id="c3">right block</div>
+        </div>
+        <div id="ftr">
+            footer bar
+        </div>
+    </main>
+
+    
+</body>
+</html>
