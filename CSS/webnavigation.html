@@ -10,15 +10,16 @@
             padding: 0;
             box-sizing: border-box;
         }
-        html,*{
-            margin: 0;
+       *{
+            margin: 2px;
             padding: 0;
             box-sizing: border-box;
         }
         nav{
+            text-align: right;
             width:100%;
-            height: 40px;
-            background-color: #000;
+            height: 75px;
+            background-color: black;
         }
         nav ul{
             list-style:  none;
@@ -27,7 +28,7 @@
             display: inline-block;
             margin: 0 20px;
             line-height: 40px;
-            color:white;
+            color: white;
         }
         nav ul li a{
             text-decoration: none;
@@ -36,18 +37,57 @@
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 500;
         }
-        
+        .hero{
+            width: 100%;
+            height: 500px;
+            background: url("abes ec pic.jpg") no-repeat center center/cover;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-text{
+            position: absolute;
+            color: white;
+            text-align: center;
+            font-size: 60px;
+            font-weight: bold;
+            text-shadow: 2px 2px 8px black;
+        }
+             .ms{
+                color: black ;
+            width: 100%;
+            height: 500px;
+            background: url("abes ec pic.jpg") no-repeat center center/cover;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
     <nav>
-        <ul><a href="">About</a></li>
+        <img src="ABES logo.png" alt="ABES Engineering College Ghaziabad logo featuring the institution name and emblem" width="200" height="80" style="float: left;">
+        <ul><li><a href="">About</a></li>
             <li><a href="">Admissions</a></li>
-            <li>
             <li><a href="">Acadmics</a></li>
+            <li><a href="">Clubs</a></li>
+            <li><a href="">Campus</a></li>
             <li><a href="">Placements</a></li>
-            <li><a href="">Packages</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Entrepreneurship</a></li>
         </ul>
     </nav>
+    <center>
+    <div class="ms" style="height: 500px;width: 100%;margin-top: 10px;font-size: xx-large;color: white;">
+        <h1>Welcome to <br>ABES</h1>
+        <br>
+        <center><div><h6>A community where passionate educators, lifelong learners, and a <br>
+        spirit of innovation come together to shape a better tomorrow.</h6>
+        </div></center>
+    </div>
+    </center>
 </body>
 </html>
