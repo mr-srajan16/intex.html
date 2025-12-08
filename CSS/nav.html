@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation bar</title>
+    <link rel="stylesheet" href="style.css">
+    <style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    padding: 15px 25px;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.nav-links a:hover {
+    color: lightgreen;
+    text-decoration: underline;
+}
+
+.nav-right a {
+    margin-left: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 30px;
+}
+
+.content h2 {
+    margin-bottom: 5px;
+}
+.avatar{
+            width: 50px;
+            height: 50px;
+            background: #A1DCFe;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+}
+</style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Navigation bar</div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="#" class="avatar" style="color: black;">SG</a>
+        </div>
+    </nav>
+   <footer style="background: #111; color: white; text-align: center; padding: 15px 0; width: 100%; bottom: 0; margin-top: 20px; border-radius: 10px; align-content: baseline;">
+    &copy;  MADE BY: SRAJAN GUPTA {2025B15310100}
+    </footer>
+</body>
+</html>
