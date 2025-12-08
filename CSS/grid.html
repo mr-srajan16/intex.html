@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>TOYWALA.COM</title>
+ <style>
+
+ body {
+    height: 100%;
+    width: 97%;
+ font-family: Arial, sans-serif;
+ margin: 0;
+ background: whitesmoke;
+ padding: 20px;
+ }
+
+ h2 {
+   font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+ margin-bottom: 20px;
+ }
+
+ .grid {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 20px;
+ }
+ 
+ .card {
+ background: rgb(255, 255, 255);
+ border-radius: 8px;
+ box-shadow: 0 6px 8px black;
+ padding: 16px;
+ text-align: center;
+ }
+
+ .card img {
+    height: 200px;
+    width: 200px;
+ object-fit:cover;
+ border-radius: 6px;
+ margin-bottom: 10px;
+ }
+
+ .card h4 {
+ font-size: 16px;
+ margin: 8px 0;
+ }
+
+ .card p {
+ font-size: 14px;
+ color: #464545;
+ margin: 4px 0;
+ }
+
+    @media (max-width: 1080px) {
+   .grid {
+    grid-template-columns: repeat(2, 1fr); 
+    }
+    }
+
+ @media (max-width: 600px) {
+ .grid {
+ grid-template-columns: 1fr; 
+ }
+ }
+
+ .a{
+   width: 200px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(38, 3, 73);
+   
+   border-radius: 5px;
+ }
+ </style>
+</head>
+<body>
+ <h2>LIMITED COLLECTION</h2>
+
+<div class="grid">
+ <div class="card">
+   <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSQHVkNp9YBzU8Q3MtPWpJctzOJ1ptUikh7JCDNEYZOlGBXH76Hov7kNottG2pAxKJvw5JnZ-HWfNArbb0uaiuPNOGzOMCVQZF4SA5R7xXxbsQxJBKN4paht_VQVkMzRTmQGNV-m6sa1MM&usqp=CAc" alt="Bayerische Motoren Werke M4 MINIATURE CAR">
+   <h4>Bayerische Motoren Werke M4 MINIATURE CAR</h4>
+   <p>A striking die-cast replica of the BMW M4 capturing its bold vertical kidney grille, sculpted aerodynamic lines, and sporty M-performance interior details.</p>
+   <p class="price" style="color: rgb(0, 0, 0);"><strike>₹15499</strike></p>
+   <p class="price" style="color: red;">₹13,999</p>
+   <input type="button" class="a" value="Add to Cart">
+ </div>
+
+ <div class="card">
+   <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ1Op7mCA6BOqrRFFUTbpKGBhI2Zvpn2N83vFguIj8xC9ygCZYI3FyfZTtUTU1xL_IZZjAEH_CtHlOiEnhSt3kFYCGhKjt7AovA8Xyl_rA_6o62Z1elEOzcTyyySM3qBg&usqp=CAc" alt="Bayerische Motoren Werke S1000RR DIE-CAST BIKE">
+   <h4>Bayerische Motoren Werke S1000RR DIE-CAST BIKE</h4>
+   <p>An authentic die-cast recreation of the BMW S1000RR showcasing its aggressive aerodynamic profile, detailed chassis, and signature M Motorsport livery.</p>
+   <p class="price" style="color: rgb(0, 0, 0);"><strike>₹15999</strike></p>
+   <p class="price" style="color: red;">₹14,499</p>
+   <input type="button" class="a" value="Add to Cart">
+ </div>
+
+ <div class="card">
+   <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTsFh5p0y4AeSyz8DoEcC_KmCArYo3Rla2u9l5g6ZWXl502zTUyaIgo2V03yehmya3hWCTPg44qae-O9UqdoljM0h7BaVC0QrwM1gLaUGnlcb0OHxbzGVbL4r29bfwjbWAm74KIts4&usqp=CAc" alt="DUCATI SUPERLEGGERA V4 DIE-CAST BIKE">
+      <h4>DUCATI SUPERLEGGERA V4 <br>DIE-CAST BIKE</h4>
+      <p>A precision-engineered die-cast replica of the Ducati Superleggera V4, highlighting its signature biplane wings, detailed   engine, and aggressive carbon-fiber styling.</p>
+      <p class="price" style="color: rgb(0, 0, 0);"><strike>₹19,999</strike></p>
+      <p class="price" style="color: red;">₹17,499</p>
+      <input type="button" class="a" value="Add to Cart">
+</div>
+
+ <div class="card">
+   <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSkF0SVgyxEJTPPtouKdsO78CW1R6FufVlM9W4gkoDvNXjGswZg0jB-52G3eavsKpYNeY5kUToVxN-MsUTM21E9kHul0-uT0rJYKEtj7GqV9y7_Yaa6vq9AmI9dL36Q1A&usqp=CAc" alt="LAMBORGHINI AVENTADOR DIE-CAST CAR">
+      <h4>LAMBORGHINI AVENTADOR DIE-CAST CAR</h4>
+      <p>A meticulously detailed die-cast replica of the Lamborghini Aventador featuring a sleek metal body, authentic interior, and iconic opening scissor doors</p>
+      <p class="price" style="color: rgb(0, 0, 0);"><strike>₹149,999</strike></p>
+      <p class="price" style="color: red;">₹129,999</p>
+      <input type="button" class="a" value="Add to Cart">
+ </div>
+ </div>
+
+</body>
+</html>
